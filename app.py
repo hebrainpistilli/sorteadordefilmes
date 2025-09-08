@@ -117,8 +117,8 @@ def clear_all(password):
 
 # --- Inicialização ---
 load_data()
-st.title("🎬 Sorteador de Filmes")
-st.write("Bem-vindo! Carregue uma lista de filmes e sorteie um aleatoriamente.")
+st.title("🎬 Sorteador de Filmes da Biribolas e Hebrinbous")
+st.write("Bem-vindo, Biribolas e Hebrinbous! Carregue uma lista de filmes e sorteie um aleatoriamente.")
 st.divider()
 
 # --- Upload de Arquivo ---
