@@ -159,7 +159,7 @@ with col1:
         with st.form("delete_form"):
             st.markdown("⚠️ **Confirmar exclusão da lista?** Esta ação é irreversível.")
             delete_password = st.text_input("Senha", type="password", help=HINT_PASSWORD)
-            submit_delete = st.fom_submit_button("Confirmar Exclusão", type="primary")
+            submit_delete = st.form_submit_button("Confirmar Exclusão", type="primary")
             if submit_delete:
                 clear_all(delete_password)
 
